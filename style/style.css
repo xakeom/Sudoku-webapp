@@ -22,3 +22,39 @@ h1 {
 	margin: 20px auto;
 	max-width: 750px;
 }
+
+.frst {
+	background-color: pink;
+}
+
+.scnd {
+	background-color: green;
+}
+
+.thrd {
+	background-color: purple;
+}
+
+.frth {
+	background-color: blue;
+}
+
+.ffth {
+	background-color: gray;
+}
+
+.sxth {
+	background-color: teal;
+}
+
+.svnth {
+	background-color: brown;
+}
+
+.ght {
+	background-color: red;
+}
+
+.nnth {
+	background-color: orange;
+}
