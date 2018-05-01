@@ -6,6 +6,10 @@ h1 {
 	text-align: center;
 }
 
+.row {
+	background-color: purple;
+}
+
 .square {
 	width: 10.5%;
 	padding-bottom: 10.5%;
