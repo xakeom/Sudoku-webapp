@@ -8,9 +8,9 @@ h1 {
 
 .square {
 	width: 10.5%;
-	padding-bottom: 11%;
+	padding-bottom: 10.5%;
 	float: left;
-	margin: 0.20%;
+	margin: 0.15%;
 	background-color: black;
 	border-radius: 10%;
 	transition: background 0.6s;
@@ -51,7 +51,7 @@ h1 {
 	background-color: brown;
 }
 
-.ght {
+.gth {
 	background-color: red;
 }
 
