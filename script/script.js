@@ -22,13 +22,23 @@ var box = [1,2,3,4,5,6,7,8,9];
 
 //we need one array of numbers from 1-9 in each box column and row without repetition 
 
+// generate random number between 1-9 function (no repetition)
+function generateRan(){
+    var max = 9;
+    var random = [];
+    for(var i = 0;i<max ; i++){
+        var temp = Math.floor(Math.random()*max+1);
+        if(random.indexOf(temp) == -1){
+            random.push(temp);
+        }
+        else
+         i--;
+    }
+    console.log(random);
+}
 
-function shuffle(o) {
-    for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
-};
-
+generateRan();
 
 for (var i = 0; i < squares.length; i++) {
-		row[i].textContent = rowArr[i];
+		squares[i].textContent = generateRan();
 	};
